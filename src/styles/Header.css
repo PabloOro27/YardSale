@@ -1,8 +1,5 @@
 @import './variables.css';  
 
-.logo{
-    margin: 0;
-}
 nav {
     display: flex;
     justify-content: space-between;
@@ -14,7 +11,7 @@ nav {
     display: none;
 }
 
-.logo {
+.nav-logo {
     width: 100px;
 }
 

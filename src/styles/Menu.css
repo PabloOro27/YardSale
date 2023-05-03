@@ -1,9 +1,16 @@
+@import './variables.css';
+
 .Menu {
-    width: 100px;
+    width: 6.25rem;
     height: auto;
     border: 1px solid var(--very-light-pink);
     border-radius: 6px;
-    padding: 20px 20px 0 20px;
+    padding: 1.25rem 1.25rem 0 1.25rem;
+    background-color: var(--white);
+    /* cambiar la posicion del menu */
+    position: absolute;
+    top: 60px;
+    right: 50px;
 }
 
 .Menu ul {
@@ -36,4 +43,10 @@
     text-decoration: none;
     margin-bottom: 20px;
     display: inline-block;
+}
+
+@media (max-width: 640px) {
+    .Menu {
+        display: none;
+    }
 }
