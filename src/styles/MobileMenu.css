@@ -1,23 +1,26 @@
 @import './variables.css'; 
 
-.mobile-menu {
+.MobileMenu {
+    background-color: var(--white);
       padding: 24px;
+      position: absolute;
+      top: 60px;
 }
-.mobile-menu a {
+.MobileMenu a {
     text-decoration: none;
     color: var(--black);
     font-weight: bold;
     /* margin-bottom: 24px; */
 }
-.mobile-menu ul {
+.MobileMenu ul {
     padding: 0;
     margin: 24px 0 0;
     list-style: none;
 }
-.mobile-menu ul:nth-child(1) {
+.MobileMenu ul:nth-child(1) {
     border-bottom: 1px solid var(--very-light-pink);
 }
-.mobile-menu ul li {
+.MobileMenu ul li {
     margin-bottom: 24px;
 }
 .email {

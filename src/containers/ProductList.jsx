@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from 'react';
-import useGetProducts from '../hooks/useGetProducts';
+import React from 'react';
 import ProductItem from '../components/ProductItem';
+import useGetProducts from '../hooks/useGetProducts';
 import '../styles/ProductList.css'; 
 
 // recursos de apis
@@ -13,7 +13,7 @@ const ProductList = () => {
 		<section className="main-container">
 			<div className="ProductList">
 				{products.map(product => (
-					<ProductItem product = {product} key = {product.id} />
+					<ProductItem product={product} key={product.id} />
 				))}
 			</div>
 		</section>
